@@ -8,12 +8,16 @@
 	<properties>
 		<dep.junit.version>5.5.2</dep.junit.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<maven.compiler.source>11</maven.compiler.source>
-		<maven.compiler.target>${maven.compiler.source}</maven.compiler.target>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
 		<bootstrap.version>4.3.1</bootstrap.version>
 		<springboot.version>2.2.0.RELEASE</springboot.version>
+		<sonar.projectKey>Rondoublec_oc-testing-java-cours</sonar.projectKey>
+		<sonar.organization>rondoublec</sonar.organization>
+		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
+		<sonar.login>20a60cbfd8c3781c6edfd5c69adcccb503dcf711</sonar.login>
 	</properties>
-
+	
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
